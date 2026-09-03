@@ -59,23 +59,15 @@ cd test-katalon-api-kafka
 The startup script automatically performs the following:
 
 ```text
-Docker check
-     ↓
-Start Kafka
-     ↓
-Wait for Kafka
-     ↓
-Create/check Kafka topic
-     ↓
-Start REST API
-     ↓
-Install Kafka Producer dependencies
-     ↓
-Send USER_CREATED event
-     ↓
-Environment READY
+1. Docker check
+2. Start Kafka
+3. Wait for Kafka
+4. Create/check Kafka topic
+5. Start REST API
+6. Install Kafka Producer dependencies
+7. Send USER_CREATED event
+8. Environment READY
 ```
-
 No need to manually execute the Kafka Docker command, create the topic, start the REST API, or run npm install.
 
 # Running the Test
@@ -96,12 +88,14 @@ Test Suites
 TS_API_KafkaIntegration
 ```
 
-Click:
+<br>
 
+Click:
+<br>
 ```text
 Run
 ```
-
+<br>
 Expected result:
 
 ```text
