@@ -48,7 +48,13 @@ After cloning the repository, simply run:
 
 ```bash
 git clone https://github.com/verginl/test-katalon-api-kafka.git 
+```
+
+```bash
 cd test-katalon-api-kafka
+```
+
+```bash
 ./start.sh
 ```
 
