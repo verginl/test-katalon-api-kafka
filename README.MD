@@ -48,8 +48,6 @@ Docker         : 29.x
 
 The project provides a *start.sh* script to simplify environment setup.
 
-<br>
-
 After cloning the repository, simply run:
 
 ```bash
@@ -60,6 +58,7 @@ cd test-katalon-api-kafka
 
 The startup script automatically performs the following:
 
+```text
 Docker check
      ↓
 Start Kafka
@@ -75,36 +74,38 @@ Install Kafka Producer dependencies
 Send USER_CREATED event
      ↓
 Environment READY
+```
 
-<br>
 No need to manually execute the Kafka Docker command, create the topic, start the REST API, or run npm install.
 
-<br>
-Running the Test
+# Running the Test
+
 After executing:
 
 ```bash
 ./start.sh
 ```
 
-<br>
-open the project using Katalon Studio.
+Open the project using Katalon Studio.
 
-<br>
 Then navigate to:
 
+```text
 Test Suites
     ↓
 TS_API_KafkaIntegration
+```
 
-<br>
 Click:
 
+```text
 Run
+```
 
-<br>
 Expected result:
 
+```text
 TC_REST_Producer_CreateUser    PASS
 TC_REST_Consumer_GetUser       PASS
 TC_KafkaConsumer               PASS
+```
