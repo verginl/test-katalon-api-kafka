@@ -41,7 +41,7 @@ Node.js        : 22.x
 Kafka          : 3.9.1
 KafkaJS        : 2.x
 Docker         : 29.x
-`
+```
 
 
 # Quick Start
