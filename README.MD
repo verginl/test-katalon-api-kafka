@@ -56,7 +56,7 @@ After cloning the repository, simply run:
 git clone <REPOSITORY_URL>
 cd test-katalon-api-kafka
 ./start.sh
-`
+```
 
 The startup script automatically performs the following:
 
@@ -83,7 +83,9 @@ No need to manually execute the Kafka Docker command, create the topic, start th
 Running the Test
 After executing:
 
+```bash
 ./start.sh
+```
 
 <br>
 open the project using Katalon Studio.
