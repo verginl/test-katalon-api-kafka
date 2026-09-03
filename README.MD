@@ -41,7 +41,7 @@ Node.js        : 22.x
 Kafka          : 3.9.1
 KafkaJS        : 2.x
 Docker         : 29.x
-
+`
 
 
 # Quick Start
@@ -56,7 +56,7 @@ After cloning the repository, simply run:
 git clone <REPOSITORY_URL>
 cd test-katalon-api-kafka
 ./start.sh
-
+`
 
 The startup script automatically performs the following:
 
