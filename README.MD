@@ -15,8 +15,6 @@ Project ini mendemonstrasikan:
 7. REST API lokal menggunakan Node.js dan Express
 8. Kafka yang dijalankan menggunakan Docker
 
-<br>
-
 # Requirements
 
 Before running the project, make sure the following are installed:
@@ -28,7 +26,7 @@ Before running the project, make sure the following are installed:
 - Docker Desktop
 - Git
 
-<br>
+
 
 ## Recommended Environment
 
@@ -51,7 +49,7 @@ The project provides a *start.sh* script to simplify environment setup.
 After cloning the repository, simply run:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/verginl/test-katalon-api-kafka.git 
 cd test-katalon-api-kafka
 ./start.sh
 ```
@@ -83,20 +81,18 @@ Open the project using Katalon Studio.
 Then navigate to:
 
 ```text
-Test Suites
-    ↓
-TS_API_KafkaIntegration
+1. Test Suites
+2. TS_API_KafkaIntegration
 ```
 
-<br>
 
-Click:
+*Click:*
 <br>
 ```text
 Run
 ```
-<br>
-Expected result:
+
+*Expected result:*
 
 ```text
 TC_REST_Producer_CreateUser    PASS
