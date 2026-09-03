@@ -2,8 +2,6 @@
 
 Project Katalon Studio untuk mendemonstrasikan pengujian RESTful API dan pengujian Kafka Consumer menggunakan pendekatan BDD (Cucumber).
 
-<br>
-
 Project ini mendemonstrasikan:
 
 1. Pengujian REST API Producer menggunakan Katalon Studio
@@ -15,7 +13,7 @@ Project ini mendemonstrasikan:
 7. REST API lokal menggunakan Node.js dan Express
 8. Kafka yang dijalankan menggunakan Docker
 
-# Requirements
+## Requirements
 
 Before running the project, make sure the following are installed:
 
@@ -28,7 +26,7 @@ Before running the project, make sure the following are installed:
 
 
 
-## Recommended Environment
+### Recommended Environment
 
 The project was developed and tested using:
 
@@ -42,7 +40,7 @@ Docker         : 29.x
 ```
 
 
-# Quick Start
+## Quick Start
 
 The project provides a *start.sh* script to simplify environment setup.
 
@@ -68,7 +66,7 @@ The startup script automatically performs the following:
 ```
 No need to manually execute the Kafka Docker command, create the topic, start the REST API, or run npm install.
 
-# Running the Test
+## Running the Test
 
 After executing:
 
