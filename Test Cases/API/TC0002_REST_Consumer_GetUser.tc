@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC0002_REST_Consumer_GetUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e68849f-6b5f-49cb-9a06-be992d66e666</testCaseGuid>
+</TestCaseEntity>

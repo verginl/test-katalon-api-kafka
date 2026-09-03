@@ -1,0 +1,26 @@
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+!output/.gitkeep
+
+build
+
+.classpath
+
+.project
+
+# Node.js
+kafka/node_modules/
+api-server/node_modules/
+
+# macOS
+.DS_Store
+
+# Local cache
+.cache/
