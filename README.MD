@@ -1,6 +1,6 @@
 # API & Kafka Automation
 
-Project Katalon Studio untuk mendemonstrasikan pengujian RESTful API dan pengujian Kafka Consumer menggunakan pendekatan BDD (Cucumber).
+Project Katalon Studio untuk mendemonstrasikan pengujian RESTful API dan pengujian Kafka Consumer menggunakan framework BDD Cucumber.
 
 Project ini mendemonstrasikan:
 
